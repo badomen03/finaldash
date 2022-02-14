@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0; 
+    *box-sizing: border-box; text-align: center; 
+    *font-family: 'Gugi', cursive;}
+    main{
+        max-height: 100%;
+     max-width: 100%; margin: 5px 5px 5px  ; 
+      border:1px solid black;
+       display: grid; color: black;
+        grid-template-rows: 60px 180px 350px ;
+         grid-template-columns: 3fr 3fr 3fr 200px;
+       
+          grid-gap: 20px;
+    }
+    
+     .div1{ background-color: black ;
+        color: white; 
+       grid-column: 1/-1;
+        }
+         .div2{background-color: black;
+         }
+          .div3{ background-color:black; }
+           .div4{ background-color: black; }
+            .div5{ background-color: black; 
+                color: white;
+              grid-row:2/4; grid-column: 4/5;
+              overflow-x: hidden;
+              overflow-y: auto;
+               }
+                .div6{ background-color: black;
+                    color: white ;
+                  grid-column: 1/ 4;
+                   }
+                    .div7{ background-color: #00d2d3;
+                      grid-column: 1/-1;
+                        }
+                      .div1 .icon
+                      {
+                          text-align:  right  ;
+                      }
+.div1 .logo
+{
+    text-align: left;
+}
+.div2{
+   border-radius:12% ;
+  color: white;
+   text-overflow: none;
+}
+.div3{
+    border-radius:15% ;
+    color: white;
+    text-overflow: none;
+}
+.div4{
+    border-radius:12% ;
+    color: white;
+    text-overflow: none;
+}
+.div2:hover{
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+}
+.div3:hover{
+    z-index: -1;
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+  
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+}
+.div4:hover{
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+   
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+}
